@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="MY_PORTFOLIO.css">
+
+</head> 
+<body>
+    <!-- damilola header section-->
+  <div class="container navbar">
+    <header>
+        <div class="logo">
+            <h1><a href="#" >DAMILOLA.</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#work">WORK</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <!-- <nav>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#work">WORK</a></li>
+        </ul>
+    </nav> -->
+
+    <!-- short introduction of myself -->
+    <!-- hi, i'm a web designer -->
+    <div class="container main-info-section">
+        <div class="text">
+            <h1>
+                <span>H</span>
+                <span class="m-left">i</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>I</span>
+                <span class="m-left">'</span>
+                <span class="m-left">m</span>
+                <span class="name">D</span>
+                <span class="m-left Name">a</span>
+                <span class="m-left Name">m</span>
+                <span class="m-left Name">i</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>W</span>
+                <span class="m-left">e</span>
+                <span class="m-left">b</span>
+                <span>D</span>
+                <span class="m-left">e</span>
+                <span class="m-left">s</span>
+                <span class="m-left">i</span>
+                <span class="m-left">g</span>
+                <span class="m-left">n</span>
+                <span class="m-left">e</span>
+                <span class="m-left">r</span>
+                <span class="m-left">.</span>
+            </h1>
+            <p>CSS / JAVASCRIPT / HTML</p>
+            <!-- contact me -->
+            <a href="#contact">CONTACT ME</a>
+        </div>
+    </div>
+    
+    <!-- profile image -->
+    <div class="profile-image">
+        <img src="background pics.jpeg" alt="">
+    </div>
+  </div>
+
+  <!-- about myself -->
+  <div class="container about" id="about">
+      <h1>About</h1>
+      <div class="about-me-info">
+          <p>Hi, I am John. I'm a web developer who <br> companies make beautiful sites and services      <br>that work everywhere.  My design practices <br> focuses on responsive, device-agnostic <br> interfaces; on building resilient, accesible <br> products; and  on creating digital design<br> systems at scale.</p>
+          <!-- image of myself -->
+          <img src="john_image.jpeg" alt="">
+      </div>
+  </div>
+
+  <!-- container skills and bar -->
+  <div class="container skills" id="skills">
+      <h1>Skills</h1>
+      <p class="skills-info">Since beginning my journey as a freelance developer nearly 10 years ago, I've done remote work for agencies, consulted for start-ups, and collaborated with talented people to create web products for both business and consumer use.<br> I create successful websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development;HTML, CSS, JS, features, animations and coding interactive layouts. <br>I also have full-stack developer experience with popular open source CMS like WordPress, Drupal,keystone.js and others.</p>
+      <div class="html">
+          <div class="tag-html">
+              <p>HTML </p>
+          </div>
+          <div class="progressbar">
+              <div class="bar-html"></div>
+          </div>
+      </div>
+
+      <div class="css">
+        <div class="tag-css">
+            <p>CSS</p>
+        </div>
+        <div class="progressbar">
+            <div class="bar-css"></div>
+        </div>
+      </div>
+
+    <div class="javascript">
+        <div class="tag-javascript">
+            <p>JAVASCRIPT</p>
+        </div>
+        <div class="progressbar">
+            <div class="bar-javascript"></div>
+        </div>
+    </div>
+
+    <div class="php">
+        <div class="tag-php">
+            <p>PHP</p>
+        </div>
+        <div class="progressbar">
+            <div class="bar-php"></div>
+        </div>
+    </div>
+  </div>
+<!-- container for work -->
+  <div class="container work" id="work">
+      <h1>Works</h1>
+      <div class="work-category">
+          <button id="designing" class="active" onclick="showRequiredCategory(this)">Web Designing</button>
+          <button id="animation" onclick="showRequiredCategory(this)">Animation</button>
+          <button id="project" onclick="showRequiredCategory(this)">React Projects</button>
+      </div>
+
+        <div class="category-designing showCategory">
+            <a href="https://codepen.io/freeCodeCamp/full/zNqgVx"><img src="html-css-project-tribute-page.png" alt=""></a>
+            <a href="https://tesla.com"><img src="tesla-project-ppt-1-638.jpg" alt=""></a>
+            <a href="https://microsoft.com/nl-nl/"><img src="microsoft logo.png" alt=""></a>
+            <a href="https://formsite.com"><img src="form-layout-grouping.png" alt=""></a>
+            <a href="https://typeform.com"><img src="forms.png" alt=""></a>
+        </div>
+
+        <div class="category-animation hideCategory">
+            <a href=""><img src="pentecost.jpg" alt=""></a>
+            <a href=""><img src="gsf.jpg" alt=""></a>
+            <a href=""><img src="living faith.jpg" alt=""></a>
+            <!-- <a href=""><img src="image2.jpg" alt=""></a> -->
+            <!-- <a href=""><img src="image3.jpg" alt=""></a> -->
+        </div>
+
+        <div class="category-project showCategory"> 
+            <a href=""><img src="google.jpg" alt=""></a>
+            <a href=""><img src="gofamint.jpg" alt=""></a>
+            <a href=""><img src="ibm.png" alt=""></a>
+            <a href=""><img src="microsoft logo.png" alt=""></a>
+            <a href=""><img src="tesla-project-ppt-1-638.jpg" alt=""></a>
+        </div> 
+  </div>
+
+  <!-- contact container -->
+  <div class="container contact" id="contact">
+      <h1>Contact</h1>
+      <form action="">
+          <input type="text" name="name" placeholder="Full Name"><br>
+          <input type="email" placeholder="Email">
+          <!-- sample of the email set to disabled-->
+          <input type="placeholder" placeholder="portfoliopersnalemail@example.com" disabled><br>
+          <textarea  id="" cols="30" rows="10" placeholder="message"></textarea><br>
+          <input type="submit"><br>
+      </form>
+  </div>
+
+<!-- footer -->
+<footer>
+    <p>2021 Copyright. All Rights Reserved</p>
+</footer>
+    
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/TimeLineLight.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/CSSPlugin.min.js"></script>
+    <script src="/MY_PORTFOLIO.js"></script>
+        
+    
+</body>
+</html>
